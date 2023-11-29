@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_shade_1"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:background="@color/black_shade_1"
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="171dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="end"
+        android:hint="0"
+        android:textSize="24sp" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="418dp"
+        android:layout_below="@id/editText"
+        android:layout_marginTop="89dp"
+        android:columnCount="4">
+
+        <!-- Buttons for digits and operations -->
+        <Button
+            android:id="@+id/btn7"
+            style="@style/CalculatorButton"
+            android:backgroundTint="@color/black_shade_2"
+            android:text="7"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn8"
+            style="@style/CalculatorButton"
+            android:backgroundTint="@color/black_shade_2"
+            android:text="8"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <Button
+            android:textSize="24sp"
+            android:id="@+id/btn9"
+            style="@style/CalculatorButton"
+            android:backgroundTint="@color/black_shade_2"
+            android:text="9"
+            android:textColor="@color/white" />
+
+        <Button
+            android:textSize="24sp"
+            android:id="@+id/btnDivide"
+            style="@style/CalculatorButton"
+            android:backgroundTint="@color/black_shade_2"
+            android:text="/"
+            android:textColor="@color/white" />
+
+        <Button
+            android:textSize="24sp"
+            android:id="@+id/btn4"
+            style="@style/CalculatorButton"
+            android:backgroundTint="@color/black_shade_2"
+            android:text="4"
+            android:textColor="@color/white" />
+
+        <Button
+            android:textSize="24sp"
+            android:id="@+id/btn5"
+            style="@style/CalculatorButton"
+            android:backgroundTint="@color/black_shade_2"
+            android:text="5"
+            android:textColor="@color/white" />
+
+        <Button
+            android:textSize="24sp"
+            android:id="@+id/btn6"
+            style="@style/CalculatorButton"
+            android:backgroundTint="@color/black_shade_2"
+            android:text="6"
+            android:textColor="@color/white" />
+
+        <Button
+            android:textSize="24sp"
+            android:id="@+id/btnmul"
+            style="@style/CalculatorButton"
+            android:backgroundTint="@color/black_shade_2"
+            android:text="*"
+            android:textColor="@color/white" />
+
+        <Button
+            android:textSize="24sp"
+            android:id="@+id/btn1"
+            style="@style/CalculatorButton"
+            android:backgroundTint="@color/black_shade_2"
+            android:text="1"
+            android:textColor="@color/white" />
+
+        <Button
+            android:textSize="24sp"
+            android:id="@+id/btn2"
+            style="@style/CalculatorButton"
+            android:backgroundTint="@color/black_shade_2"
+            android:text="2"
+            android:textColor="@color/white" />
+
+        <Button
+            android:textSize="24sp"
+            android:id="@+id/btn3"
+            style="@style/CalculatorButton"
+            android:backgroundTint="@color/black_shade_2"
+            android:text="3"
+            android:textColor="@color/white" />
+
+        <Button
+            android:textSize="24sp"
+            android:id="@+id/btnadd"
+            style="@style/CalculatorButton"
+            android:backgroundTint="@color/black_shade_2"
+            android:text="+"
+            android:textColor="@color/white" />
+
+
+        <!-- Repeat similar buttons for other digits and operations -->
+
+        <Button
+            android:textSize="24sp"
+            android:id="@+id/btn0"
+            style="@style/CalculatorButton"
+            android:backgroundTint="@color/black_shade_2"
+            android:text="0"
+            android:textColor="@color/white" />
+
+        <Button
+            android:textSize="24sp"
+            android:id="@+id/btnEquals"
+            style="@style/CalculatorButton"
+            android:backgroundTint="@color/black_shade_2"
+            android:text="="
+            android:textColor="@color/white" />
+
+        <Button
+            android:textSize="24sp"
+            android:id="@+id/btnClear"
+            style="@style/CalculatorButton"
+            android:backgroundTint="@color/black_shade_2"
+            android:text="C"
+            android:textColor="@color/white" />
+
+        <Button
+            android:textSize="24sp"
+            android:id="@+id/btnsub"
+            style="@style/CalculatorButton"
+            android:backgroundTint="@color/black_shade_2"
+            android:text="-"
+            android:textColor="@color/white" />
+
+    </GridLayout>
+</RelativeLayout>
